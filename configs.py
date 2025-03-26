@@ -8,7 +8,7 @@ import yaml
 from dotenv import load_dotenv
 from loguru import logger
 
-load_dotenv(override=False, verbose=True)
+load_dotenv(override=True, verbose=True)
 
 try:
     # app config

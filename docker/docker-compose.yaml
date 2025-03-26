@@ -8,3 +8,5 @@ services:
       - .env
     volumes:
       - ./.bots.yaml:/app/.bots.yaml
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
